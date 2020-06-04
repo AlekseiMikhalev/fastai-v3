@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Se1DHWmrd8mH7iJ0n9lgHkUXCBPMrl5v'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1Se1DHWmrd8mH7iJ0n9lgHkUXCBPMrl5v?alt=media&key=AIzaSyBREAY60pECgox-JsadDj7mWbhlETmzcSs'
 export_file_name = 'resnet152.pkl'
 
 classes = ['positive', 'negative']
